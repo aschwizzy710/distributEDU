@@ -1,8 +1,8 @@
 import angular from 'angular';
 import angularMeteor from 'angular-meteor';
-import todosList from '../imports/components/todosList/todosList';
+import landingPage from '../imports/components/landingPage/landingPage';
 
-angular.module('simple-todos', [
+angular.module('learn-bitcoin', [
   angularMeteor,
   todosList.name
 ]);

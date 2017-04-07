@@ -1,6 +1,6 @@
 import angular from 'angular';
 import angularMeteor from 'angular-meteor';
-import template from './todosList.html';
+import template from './landingPage.html';
 
 class TodosListCtrl {
   constructor() {
@@ -14,10 +14,10 @@ class TodosListCtrl {
   }
 }
 
-export default angular.module('todosList', [
+export default angular.module('learn-bitcoin', [
   angularMeteor
 ])
-  .component('todosList', {
-    templateUrl: 'imports/components/todosList/todosList.html',
+  .component('landingPage', {
+    templateUrl: 'imports/components/landingPage/landingPage.html',
     controller: TodosListCtrl
   });
