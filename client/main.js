@@ -7,3 +7,11 @@ angular.module('learn-bitcoin', [
   angularMeteor,
   todosList.name
 ]);
+
+Router.route('/', function () {
+  this.render('landingPage');
+});
+
+Router.route('/intro', function () {
+  this.render('intro');
+});

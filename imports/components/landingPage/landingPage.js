@@ -12,7 +12,18 @@ class TodosListCtrl {
       text: 'This is task 3'
     }];
   }
+
 }
+
+Router.route('/', function () {
+  this.render('landingPage');
+});
+
+Router.route('/intro', function () {
+  this.render('intro');
+});
+
+
 
 export default angular.module('learn-bitcoin', [
   angularMeteor
